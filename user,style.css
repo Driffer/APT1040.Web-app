@@ -1,0 +1,13 @@
+nav{
+    align-items: left;
+    a:hover
+}
+
+div{
+    display: flex;
+  justify-content: center;
+    text-align: center;
+}
+section{
+    display: none;
+}

@@ -1,0 +1,31 @@
+
+
+<script src="user,script.js"></script>
+//..
+<!--   <form id="qontactForm" action="/Query.php">
+    <span><b>Describe yousrelf</b></span><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" name="email" id="email"><br>
+            <label for="content">Content:</label><br>
+            <textarea name="content" id="content" rows="5" cols="30" placeholder="Add text here"></textarea><br>
+            <input type="submit" value="Submit">
+</div>-->
+
+//--
+/*
+   <div id="qontact">
+               
+   </div>
+//<input type="button" value="Add Details" onclick="contactForm()" >
+function contactForm(){
+    document.getElementById("qontact");//innerHTML=forms["qontactForm"];
+}//document.getElementById("qontact").appendChild(button)+goBack();//+qontactForm
+  
+//<input type="button" value="Echo" onclick="goBack()"></input>
+*/
+
+//..
