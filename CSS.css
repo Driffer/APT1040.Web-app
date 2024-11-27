@@ -1,0 +1,20 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: Arial, sans-serif; padding-top: 50px; }
+header { background: #333; color: white; text-align: center; padding: 20px; position: fixed; top: 0; width: 100%; z-index: 1; }
+header h1 { font-size: 2rem; color: black; }
+nav a { color: white; margin: 0 15px; text-decoration: none; }
+nav a:hover {color:yellow; }
+section { padding: 50px 20px; margin-top: 70px; }
+#about img { border-radius: 50%; width: 150px; }
+#skills ul { list-style-type: none; }
+#skills li { margin-bottom: 10px; }
+#portfolio .card { display: inline-block; width: 30%; margin: 10px; text-align: center; }
+#portfolio img { width: 100%; }
+#contact .mech { display: inline-block; width: 30%; margin: 10px; text-align: center; }
+form input, form textarea, form button { width: 100%; padding: 10px; margin: 10px 0; }
+form button { background-color: #333; color: white; cursor: pointer; }
+form button:hover { background-color: #555; }
+@media (max-width: 768px) {
+    #portfolio .card { width: 100%; }
+    form input, form textarea { width: 100%; }
+}
