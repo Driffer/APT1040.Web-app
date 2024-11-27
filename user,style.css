@@ -1,13 +1,59 @@
+header
+{
+    align-self: center;
+}
 nav{
     align-items: left;
-    a:hover
 }
-
+button::after{
+    color: lawngreen;
+}
+button:hover{
+    opacity: 50%;
+    color: red;
+}
+button:active{
+    margin: auto;
+}
 div{
     display: flex;
   justify-content: center;
     text-align: center;
 }
+#flashcard-container {
+    width: 300px;
+    height: 200px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  #flashcard-front, #flashcard-back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #flashcard-front h2, #flashcard-back h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  #toggle-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+img{
+    height: 50%;
+    width: 50%;
+    align-items: left;
+}
 section{
     display: none;
+  
 }

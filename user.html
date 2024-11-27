@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="user,style.css">
 </head>
 <body>
- <header> <h1>Echo</h1>
+ <header> <h1>Echo</h1></header>
    <nav>
       <input type="button" value="skills" onclick="document.getElementById('skills').style.display='block'">
       <input type="button" value="education" onclick="document.getElementById('education').style.display='block'">
@@ -17,25 +17,38 @@
 
 <script src="user,script.js"></script>
 </nav>
-</header>
+
 <section id="skills">
-<div>
-   <p>
-      a
-   </p>
-</div>
+   <div id="flashcard-container" onclick="Toggle()">
+      <div id="flashcard-front">
+         <img src="Meme.gif" alt="">
+      </div>
+      <div id="flashcard-back">
+        <h2>This</h2>
+        <p>is a gif</p>
+      </div>
+    </div>
+    <div id="flashcard-container" onclick="Toggle()">
+      <div id="flashcard-front">
+         <img src="Yeah boii.jpg" alt="">
+      </div>
+      <div id="flashcard-back">
+        <h2>This</h2>
+        <p>is a gif</p>
+      </div>
+    </div>
 </section> 
 <section id="education"> 
    <div>
       <p>
-         b
+         etc
       </p>
    </div>
 </section>
 <section id="experience">
    <div>
    <p>
-      c
+      Novice
    </p>
    </div>
 </section>
